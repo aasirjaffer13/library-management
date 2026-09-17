@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run Library Management System",
+            "request": "launch",
+            "mainClass": "app.LibraryApp",
+            "classpath": [
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/lib/h2-2.2.224.jar"
+            ]
+        }
+    ]
+}
